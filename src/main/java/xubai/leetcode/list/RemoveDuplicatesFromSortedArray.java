@@ -16,7 +16,7 @@ public class RemoveDuplicatesFromSortedArray {
      * @param array
      * @return
      */
-    public static int removeDuplicatesFromSortedArray(int[] array) {
+    public int removeDuplicatesFromSortedArray(int[] array) {
         if (array == null || array.length == 0) {
             return 0;
         }

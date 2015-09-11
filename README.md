@@ -3,5 +3,5 @@
 
 ### list
 =====> start at 2015-9-6 <=====
-
-[Remove Duplicates from Sorted List](src/main/java/xubai/leetcode/list/RemoveDuplicatesFromSortedArray.java)
+1. [Remove Duplicates from Sorted List](src/main/java/xubai/leetcode/list/RemoveDuplicatesFromSortedArray.java)
+- [Remove Duplicates from Sorted List II](src/main/java/xubai/leetcode/list/RemoveDuplicatesFromSortedArrayII.java)
