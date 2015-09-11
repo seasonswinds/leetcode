@@ -1,0 +1,14 @@
+#忽略Idea生成的项目相关文件
+.name
+*.iml
+compiler.xml
+encodings.xml
+Maven__junit_junit_3_8_1.xml
+misc.xml
+modules.xml
+profiles_settings.xml
+vcs.xml
+uiDesigner.xml
+
+#忽略.class文件
+*.class
