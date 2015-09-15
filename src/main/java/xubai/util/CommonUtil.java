@@ -36,12 +36,10 @@ public class CommonUtil {
             return NULL;
         }
         StringBuilder sb = new StringBuilder();
-        int i;
-        for (i = 0; i < list.size() - 1; i++) {
-            sb.append(list.get(i).toString()).append(", ");
+        for (Object obj : list) {
+            sb.append(obj.toString()).append(", ");
         }
-        sb.append(list.get(i).toString());
-        return sb.toString();
+        return sb.substring(0, sb.length() - 2);
     }
 
     public static String matrixToString(int[][] matrix) {
