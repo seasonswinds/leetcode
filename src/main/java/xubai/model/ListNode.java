@@ -30,11 +30,15 @@ public class ListNode {
     }
 
     public static ListNode createLinkedList(int[] array) {
-        ListNode head = null;
-        for (int i = array.length - 1; i >= 0; i--) {
-            ListNode node = new ListNode(array[i]);
-            node.setNext(head);
-            head = node;
+        if (array == null || array.length == 0) {
+            return null;
+        }
+        ListNode head = new ListNode(array[0]);
+        ListNode node = head;
+        for (int i = 1; i < array.length; i++) {
+            ListNode temp = new ListNode(array[i]);
+            node.setNext(temp);
+            node = temp;
         }
         return head;
     }

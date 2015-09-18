@@ -6,4 +6,5 @@
 - [Remove Duplicates from Sorted List](src/main/java/xubai/leetcode/list/RemoveDuplicatesFromSortedArray.java)
 - [Remove Duplicates from Sorted List II](src/main/java/xubai/leetcode/list/RemoveDuplicatesFromSortedArrayII.java)
 - [Add Two Numbers](src/main/java/xubai/leetcode/list/AddTwoNumbers.java)
-- [Convert Sorted List to Binary Search Tree](src/main/java/xubai/leetcode/list/ConvertSortedListToBinarySearchTree.java)cl
+- [Convert Sorted List to Binary Search Tree](src/main/java/xubai/leetcode/list/ConvertSortedListToBinarySearchTree.java)
+- [Copy List with Random Pointer](src/main/java/xubai/leetcode/list/CopyListWithRandomPointer.java)
