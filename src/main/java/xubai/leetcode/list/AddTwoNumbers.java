@@ -1,5 +1,7 @@
 package xubai.leetcode.list;
 
+import xubai.model.ListNode;
+
 /**
  * You are given two linked lists representing two non-negative numbers. The digits are stored in
  * reverse order and each of their nodes contain a single digit. Add the two numbers and return it
@@ -40,49 +42,5 @@ public class AddTwoNumbers {
             node = newNode;
         }
         return result;
-    }
-
-    public class ListNode {
-        private int value;
-        private ListNode next;
-
-        public ListNode(int value) {
-            this.value = value;
-        }
-
-        public int getValue() {
-            return value;
-        }
-
-        public void setValue(int value) {
-            this.value = value;
-        }
-
-        public ListNode getNext() {
-            return next;
-        }
-
-        public void setNext(ListNode next) {
-            this.next = next;
-        }
-    }
-
-    public ListNode createLinkedList(int[] array) {
-        ListNode head = null;
-        for (int i = array.length - 1; i >= 0; i--) {
-            ListNode node = new ListNode(array[i]);
-            node.setNext(head);
-            head = node;
-        }
-        return head;
-    }
-
-    public String output(ListNode node) {
-        StringBuilder sb = new StringBuilder();
-        while (node != null) {
-            sb.append(node.getValue()).append(", ");
-            node = node.getNext();
-        }
-        return sb.substring(0, sb.length() - 2);
     }
 }
