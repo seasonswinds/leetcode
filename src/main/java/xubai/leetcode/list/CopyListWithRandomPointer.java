@@ -53,6 +53,12 @@ public class CopyListWithRandomPointer {
         return newHead;
     }
 
+    /**
+     * 利用HashMap保存原结点和复制结点的对应关系，方便在复制random域时查找对应的复制结点。
+     *
+     * @param head
+     * @return
+     */
     public RandomListNode copyListWithRandomPointer1(RandomListNode head) {
         if (head == null) {
             return null;
