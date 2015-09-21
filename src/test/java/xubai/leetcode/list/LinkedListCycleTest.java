@@ -27,24 +27,7 @@ public class LinkedListCycleTest {
     @Test
     public void test() {
         assertFalse(o.linkedListCycle(head));
-        addCycle(head, 3);
+        ListNode.addCycle(head, 3);
         assertTrue(o.linkedListCycle(head));
-    }
-
-    private void addCycle(ListNode head, int index) {
-        ListNode node = head;
-        ListNode cycleHead = null;
-        ListNode cycleTail = null;
-        for (int i = 0; node != null; i++, node = node.getNext()) {
-            if (i == index) {
-                cycleTail = node;
-            }
-            if (node.getNext() == null) {
-                cycleHead = node;
-            }
-        }
-        if (cycleHead != null) {
-            cycleHead.setNext(cycleTail);
-        }
     }
 }
