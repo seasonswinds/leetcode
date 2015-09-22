@@ -13,3 +13,4 @@
 - [Linked List Cycle](src/main/java/xubai/leetcode/list/LinkedListCycle.java)
 - [Linked List Cycle II](src/main/java/xubai/leetcode/list/LinkedListCycleII.java)
 - [Merge Two Sorted Lists](src/main/java/xubai/leetcode/list/MergeTwoSortedLists.java)
+- [Merge k Sorted Lists](src/main/java/xubai/leetcode/list/MergeKSortedLists.java)
