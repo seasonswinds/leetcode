@@ -15,3 +15,4 @@
 - [Merge Two Sorted Lists](src/main/java/xubai/leetcode/list/MergeTwoSortedLists.java)
 - [Merge k Sorted Lists](src/main/java/xubai/leetcode/list/MergeKSortedLists.java)
 - [Partition List](src/main/java/xubai/leetcode/list/PartitionList.java)
+- [Remove Nth Node From End of List](src/main/java/xubai/leetcode/list/RemoveNthNodeFromEndOfList.java)
