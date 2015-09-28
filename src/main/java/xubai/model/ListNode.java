@@ -53,6 +53,9 @@ public class ListNode {
     }
 
     public static String output(ListNode node) {
+        if (node == null) {
+            return "";
+        }
         StringBuilder sb = new StringBuilder();
         while (node != null) {
             sb.append(node.getValue()).append(", ");

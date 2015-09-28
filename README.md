@@ -16,3 +16,6 @@
 - [Merge k Sorted Lists](src/main/java/xubai/leetcode/list/MergeKSortedLists.java)
 - [Partition List](src/main/java/xubai/leetcode/list/PartitionList.java)
 - [Remove Nth Node From End of List](src/main/java/xubai/leetcode/list/RemoveNthNodeFromEndOfList.java)
+- [Reverse Linked List](src/main/java/xubai/leetcode/list/ReverseLinkedList.java)
+- [Reverse Linked List II](src/main/java/xubai/leetcode/list/ReverseLinkedListII.java)
+- [Reorder List](src/main/java/xubai/leetcode/list/ReorderList.java)
