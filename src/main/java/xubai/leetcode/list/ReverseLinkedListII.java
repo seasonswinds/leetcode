@@ -11,23 +11,27 @@ import xubai.model.ListNode;
  * Created by xubai on 15/9/28.
  */
 public class ReverseLinkedListII {
-    public void reverseLinkedListII(ListNode list, int m, int n) {
-        if (list == null || list.getNext() == null) {
-            return;
+    public ListNode reverseLinkedListII(ListNode list, int m, int n) {
+        if (list == null || list.getNext() == null || n - m < 1) {
+            return list;
         }
-        ListNode p = list;
-        int i = 2;
-        for (; i < m ; i++) {
+        if (m < 1) {
+            m = 1;
+        }
+        ListNode fakeHead = new ListNode(0);
+        fakeHead.setNext(list);
+        ListNode p = fakeHead;
+        for (int i = 0; i < m - 1; i++) {
             p = p.getNext();
             if (p == null || p.getNext() == null) {
-                return;
+                return fakeHead.getNext();
             }
         }
         ListNode pre = p;
         p = p.getNext();
         ListNode node = p;
         ListNode q = p.getNext();
-        for (; i < n && q != null; i++) {
+        for (int i = m; i < n && q != null; i++) {
             ListNode temp = q.getNext();
             q.setNext(p);
             p = q;
@@ -35,5 +39,6 @@ public class ReverseLinkedListII {
         }
         pre.setNext(p);
         node.setNext(q);
+        return fakeHead.getNext();
     }
 }

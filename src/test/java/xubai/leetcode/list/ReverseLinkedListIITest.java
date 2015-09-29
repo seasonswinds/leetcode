@@ -28,7 +28,8 @@ public class ReverseLinkedListIITest {
 
     @Test
     public void test() {
-        o.reverseLinkedListII(list, m, n);
+        list = o.reverseLinkedListII(list, m, n);
+        System.out.println(ListNode.output(list));
         assertTrue("1, 4, 3, 2, 5".equals(ListNode.output(list)));
     }
 }
