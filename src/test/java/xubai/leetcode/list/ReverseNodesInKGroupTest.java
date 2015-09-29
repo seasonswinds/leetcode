@@ -30,7 +30,6 @@ public class ReverseNodesInKGroupTest {
         list = ListNode.createLinkedList(array);
         k = 3;
         list = o.reverseNodesInKGroup(list, k);
-        System.out.println(ListNode.output(list));
         assertTrue("3, 2, 1, 4, 5".equals(ListNode.output(list)));
     }
 }

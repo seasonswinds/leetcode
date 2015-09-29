@@ -1,10 +1,11 @@
 package xubai.leetcode.list;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Before;
 import org.junit.Test;
-import xubai.model.ListNode;
 
-import static org.junit.Assert.assertTrue;
+import xubai.model.ListNode;
 
 /**
  * 预期输入链表：1 -> 2 -> 3 -> 4 -> 5，以及n = 2；预期输出为：1 -> 2 -> 3 -> 5
@@ -18,7 +19,7 @@ public class RemoveNthNodeFromEndOfListTest {
 
     @Before
     public void setUp() {
-        int[] array = {1,2,3,4,5};
+        int[] array = {1, 2, 3, 4, 5};
         list = ListNode.createLinkedList(array);
         n = 2;
     }

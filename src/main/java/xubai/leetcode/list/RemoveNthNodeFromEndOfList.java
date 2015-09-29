@@ -11,11 +11,13 @@ import xubai.model.ListNode;
  */
 public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthNodeFromEndOfList(ListNode list, int n) {
-        if (n < 1) {
-            n = 1;
+        if (list == null || n < 1) {
+            return list;
         }
-        ListNode fast = list;
-        ListNode slow = list;
+        ListNode fakeHead = new ListNode(0);
+        fakeHead.setNext(list);
+        ListNode fast = fakeHead;
+        ListNode slow = fakeHead;
         for (int i = 0 ; i <= n ; i++) {
             if (fast == null) {
                 return list;
@@ -27,6 +29,6 @@ public class RemoveNthNodeFromEndOfList {
             slow = slow.getNext();
         }
         slow.setNext(slow.getNext().getNext());
-        return list;
+        return fakeHead.getNext();
     }
 }

@@ -20,3 +20,4 @@
 - [Reverse Linked List II](src/main/java/xubai/leetcode/list/ReverseLinkedListII.java)
 - [Reorder List](src/main/java/xubai/leetcode/list/ReorderList.java)
 - [Reverse Nodes in k-Group](src/main/java/xubai/leetcode/list/ReverseNodesInKGroup.java)
+- [Rotate List](src/main/java/xubai/leetcode/list/RotateList.java)
