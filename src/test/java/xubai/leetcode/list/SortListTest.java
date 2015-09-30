@@ -24,7 +24,6 @@ public class SortListTest {
     @Test
     public void test() {
         list = o.sortList(list);
-        System.out.println(ListNode.output(list));
         assertTrue("1, 2, 3, 4, 5".equals(ListNode.output(list)));
     }
 }

@@ -22,3 +22,5 @@
 - [Reverse Nodes in k-Group](src/main/java/xubai/leetcode/list/ReverseNodesInKGroup.java)
 - [Rotate List](src/main/java/xubai/leetcode/list/RotateList.java)
 - [Sort List](src/main/java/xubai/leetcode/list/SortList.java)
+- [Swap Nodes in Pairs](src/main/java/xubai/leetcode/list/SwapNodesInPairs.java)
+=====> end at 2015-9-30 <=====<p>
