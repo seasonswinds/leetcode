@@ -21,3 +21,4 @@
 - [Reorder List](src/main/java/xubai/leetcode/list/ReorderList.java)
 - [Reverse Nodes in k-Group](src/main/java/xubai/leetcode/list/ReverseNodesInKGroup.java)
 - [Rotate List](src/main/java/xubai/leetcode/list/RotateList.java)
+- [Sort List](src/main/java/xubai/leetcode/list/SortList.java)
