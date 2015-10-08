@@ -24,3 +24,7 @@
 - [Sort List](src/main/java/xubai/leetcode/list/SortList.java)
 - [Swap Nodes in Pairs](src/main/java/xubai/leetcode/list/SwapNodesInPairs.java)
 =====> end at 2015-9-30 <=====<p>
+
+### sort
+=====> start at 2015-10-08 <=====<p>
+- [3 Sum](src/main/java/xubai/leetcode/sort/ThreeSum.java)
