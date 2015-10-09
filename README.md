@@ -35,3 +35,5 @@
 - [Merge Sorted Array](src/main/java/xubai/leetcode/sort/MergeSortedArray.java)
 - [Merge Intervals](src/main/java/xubai/leetcode/sort/MergeIntervals.java)
 - [Insert Interval](src/main/java/xubai/leetcode/sort/InsertInterval.java)
+- [Sort Colors](src/main/java/xubai/leetcode/sort/SortColors.java)
+=====> end at 2015-10-09 <=====<p>
