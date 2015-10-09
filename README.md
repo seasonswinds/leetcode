@@ -34,3 +34,4 @@
 - [Longest Consecutive Sequence](src/main/java/xubai/leetcode/sort/LongestConsecutiveSequence.java)
 - [Merge Sorted Array](src/main/java/xubai/leetcode/sort/MergeSortedArray.java)
 - [Merge Intervals](src/main/java/xubai/leetcode/sort/MergeIntervals.java)
+- [Insert Interval](src/main/java/xubai/leetcode/sort/InsertInterval.java)
