@@ -31,3 +31,4 @@
 - [3 Sum](src/main/java/xubai/leetcode/sort/ThreeSum.java)
 - [3 Sum Closest](src/main/java/xubai/leetcode/sort/ThreeSumClosest.java)
 - [4 Sum](src/main/java/xubai/leetcode/sort/FourSum.java)
+- [Longest Consecutive Sequence](src/main/java/xubai/leetcode/sort/LongestConsecutiveSequence.java)
