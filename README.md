@@ -27,6 +27,7 @@
 
 ### sort
 =====> start at 2015-10-08 <=====<p>
+- [2 Sum](src/main/java/xubai/leetcode/sort/TwoSum.java)
 - [3 Sum](src/main/java/xubai/leetcode/sort/ThreeSum.java)
 - [3 Sum Closest](src/main/java/xubai/leetcode/sort/ThreeSumClosest.java)
 - [4 Sum](src/main/java/xubai/leetcode/sort/FourSum.java)
