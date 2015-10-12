@@ -19,6 +19,9 @@ public class SpiralMatrix {
     /**
      * 将整个过程按照方向拆解为4个部分。
      *
+     * 1.需要注意剩余个数与数组下标遍历的不同。
+     * 2.在每个方向遍历时，只遍历到倒数第二个元素，可以使得代码更加简练。
+     *
      * @param matrix
      * @return
      */
@@ -34,6 +37,7 @@ public class SpiralMatrix {
         while (m > 0 && n > 0) {
             if (m == 1 && n == 1) {
                 result.add(matrix[x][y]);
+                break;
             }
             for (int i = 0; i < n - 1; i++) {
                 result.add(matrix[x][y++]);
