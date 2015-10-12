@@ -7,6 +7,11 @@ package xubai.leetcode.matrix;
  * Created by xubai on 15/10/12.
  */
 public class RotateImage {
+    /**
+     * 先将矩阵转置，再左右反转，就可以实现顺时针旋转90°
+     * 
+     * @param array
+     */
     public void rotateImage(int[][] array) {
         if (array == null || array.length == 0 || array.length != array[0].length) {
             throw new RuntimeException("The image is error!");
