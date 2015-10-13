@@ -46,3 +46,7 @@
 - [Set Matrix Zeroes](src/main/java/xubai/leetcode/matrix/SetMatrixZeroes.java)
 - [Spiral Matrix](src/main/java/xubai/leetcode/matrix/SpiralMatrix.java)
 - [Spiral Matrix II](src/main/java/xubai/leetcode/matrix/SpiralMatrixII.java)
+- [Largest Rectangle in Histogram](src/main/java/xubai/leetcode/matrix/LargestRectangleInHistogram.java)
+- [Maximal Rectangle](src/main/java/xubai/leetcode/matrix/MaximalRectangle.java)
+
+<p>=====> end at 2015-10-13 <=====<p>

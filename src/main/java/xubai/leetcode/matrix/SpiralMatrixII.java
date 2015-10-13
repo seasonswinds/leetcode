@@ -1,7 +1,7 @@
 package xubai.leetcode.matrix;
 
 /**
- * Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
+ * Given an integer n, generate a square matrix filled with elements from 1 to n² in spiral order.
  * For example, given n = 4,
  * 
  * | 1,  2,  3,  4|
