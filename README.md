@@ -24,7 +24,7 @@
 - [Sort List](src/main/java/xubai/leetcode/list/SortList.java)
 - [Swap Nodes in Pairs](src/main/java/xubai/leetcode/list/SwapNodesInPairs.java)
 
-<p>======> end at 2015-9-30 <======<p>
+<p>=====> end at 2015-9-30 <======<p>
 
 ### sort
 =====> start at 2015-10-08 <=====<p>
@@ -38,7 +38,7 @@
 - [Insert Interval](src/main/java/xubai/leetcode/sort/InsertInterval.java)
 - [Sort Colors](src/main/java/xubai/leetcode/sort/SortColors.java)
 
-<p>======> end at 2015-10-09 <======<p>
+<p>=====> end at 2015-10-09 <======<p>
 
 ### matrix
 =====> start at 2015-10-12 <=====<p>
@@ -49,8 +49,9 @@
 - [Largest Rectangle in Histogram](src/main/java/xubai/leetcode/matrix/LargestRectangleInHistogram.java)
 - [Maximal Rectangle](src/main/java/xubai/leetcode/matrix/MaximalRectangle.java)
 
-<p>======> end at 2015-10-13 <======<p>
+<p>=====> end at 2015-10-13 <======<p>
 
 ## binary tree
 =====> start at 2015-10-14 <=====<p>
 - [Balanced Binary Tree](src/main/java/xubai/leetcode/binarytree/BalancedBinaryTree.java)
+- [Binary Tree Inorder Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreeInorderTraversal.java)

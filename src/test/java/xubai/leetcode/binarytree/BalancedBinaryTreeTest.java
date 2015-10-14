@@ -19,13 +19,13 @@ import xubai.model.TreeNode;
 public class BalancedBinaryTreeTest {
     private BalancedBinaryTree o = new BalancedBinaryTree();
     private TreeNode root1;
-    private int[] tree1 = {1, 2, 3, 4, 5, -1, -1, 6};
     private TreeNode root2;
-    private int[] tree2 = {1, 2, 3, 4, 5, 6};
 
     @Before
     public void setUp() {
+        int[] tree1 = {1, 2, 3, 4, 5, -1, -1, 6};
         root1 = TreeNode.createTree(tree1);
+        int[] tree2 = {1, 2, 3, 4, 5, 6};
         root2 = TreeNode.createTree(tree2);
     }
 
