@@ -24,7 +24,7 @@
 - [Sort List](src/main/java/xubai/leetcode/list/SortList.java)
 - [Swap Nodes in Pairs](src/main/java/xubai/leetcode/list/SwapNodesInPairs.java)
 
-<p>=====> end at 2015-9-30 <======<p>
+<p>=====> end at 2015-09-30 <======<p>
 
 ### sort
 =====> start at 2015-10-08 <=====<p>
@@ -51,7 +51,8 @@
 
 <p>=====> end at 2015-10-13 <======<p>
 
-## binary tree
+### binary tree
 =====> start at 2015-10-14 <=====<p>
 - [Balanced Binary Tree](src/main/java/xubai/leetcode/binarytree/BalancedBinaryTree.java)
 - [Binary Tree Inorder Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreeInorderTraversal.java)
+- [Binary Tree Level Order Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreeLevelOrderTraversal.java)

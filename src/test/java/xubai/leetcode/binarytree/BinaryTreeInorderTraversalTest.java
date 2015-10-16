@@ -10,9 +10,11 @@ import java.util.List;
 import static org.junit.Assert.assertTrue;
 
 /**
- * 输入：1  ，预期输出为{4, 2, 5, 1, 3}
+ * 输入： 1  ，预期输出为{4, 2, 5, 1, 3}
+ *     /  \
  *    2   3
- *   4 5
+ *   / \
+ *  4  5
  *
  * Created by xubai on 15/10/14.
  */

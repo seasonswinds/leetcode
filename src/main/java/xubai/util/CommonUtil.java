@@ -35,9 +35,17 @@ public class CommonUtil {
         if (list == null) {
             return NULL;
         }
+        if (list.size() == 0) {
+            return "";
+        }
         StringBuilder sb = new StringBuilder();
         for (Object obj : list) {
-            sb.append(obj.toString()).append(", ");
+            if (obj instanceof List) {
+                sb.append("{").append(listToString((List)obj)).append("}");
+            } else {
+                sb.append(obj.toString());
+            }
+            sb.append(", ");
         }
         return sb.substring(0, sb.length() - 2);
     }

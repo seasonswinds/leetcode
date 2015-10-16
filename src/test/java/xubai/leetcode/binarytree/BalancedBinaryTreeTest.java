@@ -9,9 +9,12 @@ import org.junit.Test;
 import xubai.model.TreeNode;
 
 /**
- * 输入：  1    ，预期输出false；输入：      1   预期输出true。
- *    2       3                      2       3
- *  4  5                           4   5  6
+ * 输入：  1  ，预期输出false；输入：      1   预期输出true。
+ *      /   \                        /   \
+ *     2    3                       2    3
+ *    / \                          / \  /
+ *   4  5                         4  5 6
+ *  /
  * 6
  *
  * Created by xubai on 15/10/14.
