@@ -54,6 +54,8 @@
 ### binary tree
 =====> start at 2015-10-14 <=====<p>
 - [Balanced Binary Tree](src/main/java/xubai/leetcode/binarytree/BalancedBinaryTree.java)
+- [Binary Tree Preorder Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreePreorderTraversal.java)
 - [Binary Tree Inorder Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreeInorderTraversal.java)
+- [Binary Tree Postorder Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreePostorderTraversal.java)
 - [Binary Tree Level Order Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreeLevelOrderTraversal.java)
 - [Binary Tree Level Order Traversal II](src/main/java/xubai/leetcode/binarytree/BinaryTreeLevelOrderTraversalII.java)
