@@ -61,3 +61,4 @@
 - [Binary Tree Level Order Traversal II](src/main/java/xubai/leetcode/binarytree/BinaryTreeLevelOrderTraversalII.java)
 - [Binary Tree Zigzag Level Order Traversal](src/main/java/xubai/leetcode/binarytree/BinaryTreeZigzagLevelOrderTraversal.java)
 - [Construct Binary Tree from Inorder and Postorder Traversal](src/main/java/xubai/leetcode/binarytree/ConstructBinaryTreeFromInorderAndPostorderTraversal.java)
+- [Construct Binary Tree from Preorder and Inorder Traversal](src/main/java/xubai/leetcode/binarytree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)

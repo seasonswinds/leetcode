@@ -9,6 +9,21 @@ import java.util.List;
  * Created by xubai on 15/9/11.
  */
 public class ArrayUtil {
+    public static int find(int[] array, int start, int end, int value) {
+        if (array == null || array.length == 0) {
+            return -1;
+        }
+        if (start < 0 || end > array.length - 1) {
+            return -1;
+        }
+        for (int i = start; i <= end; i++) {
+            if (array[i] == value) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public static void reverse(int[] array, int left, int right) {
         if (array == null || array.length == 0) {
             return;
