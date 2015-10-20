@@ -1,8 +1,11 @@
 package xubai.util;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Common method.
+ *
  * Created by xubai on 15/9/11.
  */
 public class CommonUtil {
@@ -41,7 +44,7 @@ public class CommonUtil {
         StringBuilder sb = new StringBuilder();
         for (Object obj : list) {
             if (obj instanceof List) {
-                sb.append("{").append(listToString((List)obj)).append("}");
+                sb.append("{").append(listToString((List) obj)).append("}");
             } else {
                 sb.append(obj.toString());
             }

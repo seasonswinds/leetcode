@@ -1,6 +1,7 @@
 package xubai.leetcode.binarytree;
 
 import xubai.model.TreeNode;
+import xubai.util.ArrayUtil;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -49,12 +50,7 @@ public class BinaryTreeLevelOrderTraversalII {
                 }
             }
         }
-        int size = lists.size();
-        List<List<Integer>> result = new ArrayList<List<Integer>>(size);
-        for (int i = size - 1 ; i >= 0 ; i--) {
-            result.add(lists.get(i));
-        }
-        return result;
+        return ArrayUtil.reverse(lists);
 
     }
 }

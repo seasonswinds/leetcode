@@ -1,6 +1,11 @@
 package xubai.util;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
+ * Array common method.
+ *
  * Created by xubai on 15/9/11.
  */
 public class ArrayUtil {
@@ -18,5 +23,16 @@ public class ArrayUtil {
             left++;
             right--;
         }
+    }
+
+    public static List reverse(List list) {
+        if (list == null || list.size() < 2) {
+            return list;
+        }
+        List result = new ArrayList<>(list.size());
+        for (int i = list.size() - 1; i >= 0; i--) {
+            result.add(list.get(i));
+        }
+        return result;
     }
 }
