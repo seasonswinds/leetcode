@@ -28,6 +28,6 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversalTest {
     @Test
     public void test() {
         TreeNode root = o.constructBinaryTreeFromInorderAndPostorderTraversal(inorder, postorder);
-        assertTrue("4, 2, 5, 1, 6, 7, 3, 8".equals(CommonUtil.listToString(out.binaryTreeInorderTraversal1(root))));
+        assertTrue("4, 2, 5, 1, 6, 7, 3, 8".equals(TreeNode.inorderToString(root)));
     }
 }

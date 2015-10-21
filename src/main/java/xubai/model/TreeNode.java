@@ -1,11 +1,18 @@
 package xubai.model;
 
+import java.util.List;
+
+import xubai.leetcode.binarytree.BinaryTreeInorderTraversal;
+import xubai.util.CommonUtil;
+
 /**
  * 二叉树
  *
  * Created by xubai on 15/10/14.
  */
 public class TreeNode {
+    private static final BinaryTreeInorderTraversal inorder = new BinaryTreeInorderTraversal();
+
     private final int value;
     private TreeNode left;
     private TreeNode right;
@@ -49,5 +56,10 @@ public class TreeNode {
 
     public void setRight(TreeNode right) {
         this.right = right;
+    }
+
+    public static String inorderToString(TreeNode root) {
+        List<Integer> list = inorder.binaryTreeInorderTraversal1(root);
+        return CommonUtil.listToString(list);
     }
 }

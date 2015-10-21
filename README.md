@@ -63,3 +63,4 @@
 - [Construct Binary Tree from Inorder and Postorder Traversal](src/main/java/xubai/leetcode/binarytree/ConstructBinaryTreeFromInorderAndPostorderTraversal.java)
 - [Construct Binary Tree from Preorder and Inorder Traversal](src/main/java/xubai/leetcode/binarytree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
 - [Binary Tree Maximum Path Sum](src/main/java/xubai/leetcode/binarytree/BinaryTreeMaximumPathSum.java)
+- [Flatten Binary Tree to Linked List](src/main/java/xubai/leetcode/binarytree/FlattenBinaryTreeToLinkedList.java)
