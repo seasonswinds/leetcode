@@ -34,7 +34,7 @@ import xubai.model.TreeNode;
 public class FlattenBinaryTreeToLinkedList {
     /**
      * 用一个栈来保存结点的右子树，然后将左子树设置为右子树
-     * 
+     *
      * @param root
      */
     public void flattenBinaryTreeToLinkedList(TreeNode root) {
