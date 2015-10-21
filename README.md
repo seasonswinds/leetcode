@@ -65,3 +65,4 @@
 - [Binary Tree Maximum Path Sum](src/main/java/xubai/leetcode/binarytree/BinaryTreeMaximumPathSum.java)
 - [Flatten Binary Tree to Linked List](src/main/java/xubai/leetcode/binarytree/FlattenBinaryTreeToLinkedList.java)
 - [Maximum Depth of Binary Tree](src/main/java/xubai/leetcode/binarytree/MaximumDepthOfBinaryTree.java)
+- [Minimum Depth of Binary Tree](src/main/java/xubai/leetcode/binarytree/MinimumDepthOfBinaryTree.java)
