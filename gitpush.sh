@@ -1,4 +1,4 @@
-name=$1
+name='<'$1'> has done.'
 `git add *`
-`git commit -m '<'${name}'> has done.'`
+`git commit -m '${name}'`
 `git push origin master`
