@@ -1,5 +1,11 @@
 package xubai.model;
 
+import xubai.util.CommonUtil;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * 带链接的二叉树
  *
@@ -30,6 +36,44 @@ public class TreeLinkNode {
         root.setLeft(createTree(array, index * 2 + 1));
         root.setRight(createTree(array, index * 2 + 2));
         return root;
+    }
+
+    public static String levelOrderToString(TreeLinkNode root) {
+        if (root == null) {
+            return "";
+        }
+        List<List<Integer>> lists = new ArrayList<List<Integer>>();
+        LinkedList<TreeLinkNode> queue = new LinkedList<TreeLinkNode>();
+        queue.add(root);
+        queue.add(null);
+        boolean isFirstNodeOfLevel = true;
+        while (!queue.isEmpty()) {
+            TreeLinkNode node = queue.pop();
+            if (node == null) {
+                if (!queue.isEmpty()) {
+                    queue.add(null);
+                    isFirstNodeOfLevel = true;
+                }
+            } else {
+                if (node.getLeft() != null) {
+                    queue.add(node.getLeft());
+                }
+                if (node.getRight() != null) {
+                    queue.add(node.getRight());
+                }
+                if (isFirstNodeOfLevel) {
+                    TreeLinkNode p = node;
+                    List<Integer> list = new ArrayList<Integer>();
+                    while (p != null) {
+                        list.add(p.getValue());
+                        p = p.getNext();
+                    }
+                    lists.add(list);
+                    isFirstNodeOfLevel = false;
+                }
+            }
+        }
+        return CommonUtil.listToString(lists);
     }
 
     public int getValue() {
