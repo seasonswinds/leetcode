@@ -68,3 +68,4 @@
 - [Minimum Depth of Binary Tree](src/main/java/xubai/leetcode/binarytree/MinimumDepthOfBinaryTree.java)
 - [Path Sum](src/main/java/xubai/leetcode/binarytree/PathSum.java)
 - [Path Sum II](src/main/java/xubai/leetcode/binarytree/PathSumII.java)
+- [Populating Next Right Pointers in Each Node](src/main/java/xubai/leetcode/binarytree/PopulatingNextRightPointersInEachNode.java)
