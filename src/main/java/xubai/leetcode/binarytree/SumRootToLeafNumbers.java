@@ -1,10 +1,8 @@
 package xubai.leetcode.binarytree;
 
-import xubai.model.TreeNode;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
+
+import xubai.model.TreeNode;
 
 /**
  * Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a
