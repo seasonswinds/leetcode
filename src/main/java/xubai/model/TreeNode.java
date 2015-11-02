@@ -13,7 +13,7 @@ import xubai.util.CommonUtil;
 public class TreeNode {
     private static final BinaryTreeInorderTraversal inorder = new BinaryTreeInorderTraversal();
 
-    private final int value;
+    private int value;
     private TreeNode left;
     private TreeNode right;
 
@@ -40,6 +40,10 @@ public class TreeNode {
 
     public int getValue() {
         return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
     }
 
     public TreeNode getLeft() {
