@@ -73,3 +73,4 @@
 - [Sum Root to Leaf Numbers](src/main/java/xubai/leetcode/binarytree/SumRootToLeafNumbers.java)
 - [Validate Binary Search Tree](src/main/java/xubai/leetcode/binarytree/ValidateBinarySearchTree.java)
 - [Recover Binary Search Tree](src/main/java/xubai/leetcode/binarytree/RecoverBinarySearchTree.java)
+- [Unique Binary Search Trees](src/main/java/xubai/leetcode/binarytree/UniqueBinarySearchTrees.java)
