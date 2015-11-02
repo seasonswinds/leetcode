@@ -15,10 +15,7 @@ public class SameTree {
         if (rootA == null && rootB == null) {
             return true;
         }
-        if (rootA == null) {
-            return false;
-        }
-        if (rootB == null) {
+        if (rootA == null || rootB == null) {
             return false;
         }
         if (rootA.getValue() != rootB.getValue()) {

@@ -1,11 +1,12 @@
 package xubai.leetcode.binarytree;
 
-import org.junit.Before;
-import org.junit.Test;
-import xubai.model.TreeNode;
-
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import xubai.model.TreeNode;
 
 /**
  * 输入rootA：1 ，rootB：1 ，预期输出为true。
