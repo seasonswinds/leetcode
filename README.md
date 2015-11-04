@@ -83,3 +83,5 @@
 ### String
 =====> start at 2015-11-03 <=====<p>
 - [Anagrams](src/main/java/xubai/leetcode/string/Anagrams.java)
+- [Group Anagrams](src/main/java/xubai/leetcode/string/GroupAnagrams.java)
+- [Count and Say](src/main/java/xubai/leetcode/string/CountandSay.java)
