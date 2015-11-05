@@ -1,8 +1,8 @@
 package xubai.leetcode.string;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 /**
  * 输入："Hello World"，预期输出：5

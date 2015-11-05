@@ -19,7 +19,7 @@ public class LengthOfLastWord {
             return count;
         }
         boolean flag = false;
-        for (int i = s.length() - 1; i >= 0 ; i--) {
+        for (int i = s.length() - 1; i >= 0; i--) {
             if (s.charAt(i) <= 'z' && s.charAt(i) >= 'A') {
                 flag = true;
                 count++;
